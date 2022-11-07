@@ -24,17 +24,23 @@
 
 <body class="bg-dark">
     
+<!-- navbar -->
     <div class="wrapper">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>
 
+<!-- jumbotron -->
     <div class="jumbotron">
         <h1 class="display-4">The Truth Is Out There</h1>
     </div>
 
+<!-- grid system container: added elements then span width of viewport -->
+<!-- article title and article container -->
     <div class="container-fluid">
+        <!-- add a row, then 2 columns -->
+        <!-- max 12 columns per row. assign 4 cols to title, 8 cols to paragraph -->
         <div class="row">
           <div class="col-md-4">
             <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>
@@ -51,12 +57,16 @@
       </div>
     </div>
 
+<!-- filter/search container -->
     <div class="container-fluid">
         <div class="row">
+
+          <!-- filter -->
           <div class="col-md-3">
             <form>
-                <p>Filter Search</p>
+              <p>Filter Search</p>
 
+              <ul class="list-group">
                 <li class="list-group-item">
                     <label for="date">Enter Date</label>
                     <input type="text" placeholder="1/10/2010" id="datetime" />
@@ -65,9 +75,11 @@
                 <li class="list-group-item">
                     <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
                 </li>
+              </ul>
             </form>
           </div>
 
+          <!-- filter results -->
           <div class="col-md-9">
             <table class="table table-striped">
               <thead>
@@ -81,6 +93,7 @@
                     <th>Comments</th>
                 </tr>
               </thead>
+              
               <tbody>
 
               </tbody>
