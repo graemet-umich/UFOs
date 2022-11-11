@@ -4,9 +4,18 @@ UFO sightings with JavaScript and Bootstrap
 ## Overview
 This study is an exercise in dynamic filtering of data via a browser interface. Given a JavaScript file containing an array of UFO sightings (as JavaScript objects), the goal is to create a webpage that can be used to filter the large amount of data and display it clearly in an organized way with a lot of visual appeal.
 
-## Results 
+## Results: How to Perform a Search
 
+- Navigate to the webpage homepage. A teaser article and all records are displayed. To return to the home page, click on the "UFO Sightings" link in the upper left corner.
+![homepage](Resources/homepage.png)
 
+---
+- To perform a single search, enter your search term into one of the text boxes on the left, then enter or tab away. For example, here are all UFO sightings in California (only the first 10 sightings are shown in the image).
+![CA sightings](Resources/CA_sightings.png)
+
+---
+- To filter the California sightings even more, enter another search term in any of the other text boxes. What about fireballs in California? Perhaps this is why [California is on fire.](http://iscaliforniaonfire.com/)
+![CA fireballs](Resources/CA_fireballs.png)
 
 ## Summary
 
